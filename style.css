@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    background-image: url("PurePage.jpg");
+    background-position: center;
+    height: 666px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.parent-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:burlywood;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+}
+.parent-text h1{
+    position: absolute;
+    top: -100px;
+    left: 40px;
+    color: white;
+}
+.parent-text p{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 15px;
+}
+#check{
+    text-align: center;
+    position: absolute;
+    top: 150%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: brown;
+    background-color:burlywood;
+    padding: 12px;
+    margin: 15px;
+    /* border: 1px solid tomato; */
+    text-decoration: none;
+}
+
+#check :hover{
+    margin-bottom: 15px;
+    color: cadetblue;
+    box-shadow: 1px 2px dimgray;
+}
+
+.text-logo{
+    /* border: 1px solid green; */
+    position: relative;
+    top: 10px;
+    left: 50px;
+    display: inline-block;
+    width: 10%;
+}
+.text-logo p{
+    top: 7px;
+    margin-right: 12px;
+    padding-right:15px;
+    color: white;
+    font-size: 20px;
+}
+.text-logo img{
+    position: absolute;
+    left: -33px;
+}
+.nav-bar {
+    /* position: absolute;
+    top: 10px;
+    left: 96%; */
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    width: 100%;
+}
+.nav-bar li{
+    list-style-type: none;
+    float: right;
+    /* padding: 8px ; */
+    border: 1px solid darkgoldenrod;
+}
+.nav-bar li a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: darkgoldenrod;
+    padding: 12px 12px;
+    background-color: white;
+    font-size: 15px;
+}
+.nav-bar li:hover{
+    background-color: white;
+    padding: 5px;
+    /* margin: 10px; */
+}
+.nav-bar li:hover a{
+    color: lightseagreen;
+    padding: 5px;
+}
+
+footer{
+    position: absolute;
+    top:95%;
+    right:40%; 
+    text-align: center;
+    padding: 12px;
+    
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    
+}
+.form{
+    text-align: center;
+}
